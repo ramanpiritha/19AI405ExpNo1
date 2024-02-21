@@ -44,7 +44,7 @@ do_nothing: Represents a passive action where the agent remains idle.</p>
 <p>Clean the room and Search for dirt and Suck it.</p>
 
 
-<h3>CODE:</h3>
+## code:
 ```
 class VacuumCleanerAgent:
     def __init__(self):
@@ -87,20 +87,22 @@ class VacuumCleanerAgent:
 
     def print_status(self):
         # Print the current status of the agent
-        print(f"Location: {self.location}, Dirt Status: {self.dirt_status}")     
+        print(f"Location: {self.location}, Dirt Status: {self.dirt_status}")
 
-<p># Example usage:</p>
-<p>agent = VacuumCleanerAgent()</p>
-<br>
-<p># Move the agent, suck dirt, and do nothing</p>
-<p>agent.perform_action("left")</p>
-<p>agent.print_status()</p>
+# Example usage:
+agent = VacuumCleanerAgent()
+
+# Move the agent, suck dirt, and do nothing
+agent.perform_action("left")
+agent.print_status()
 
 agent.perform_action("suck")
 agent.print_status()
-```
 
 agent.perform_action("nothing")
 agent.print_status()
-
 ```
+## output:
+![vaccum](https://github.com/Arun2005-create/19AI405ExpNo1/assets/138849356/855e3b39-72f5-476d-ada3-75f6a7f85c4e)
+
+
